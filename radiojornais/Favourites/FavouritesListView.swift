@@ -25,7 +25,7 @@ struct FavouritesListView: View {
                 if favouriteRadioStations.count == 0 && favouritePublications.count == 0 {
                     VStack {
                         Spacer()
-                        Text("Please add to favourites")
+                        Text("Você não tem favoritos")
                         Spacer()
                     }
                 }

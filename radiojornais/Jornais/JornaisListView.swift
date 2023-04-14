@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct JornaisListView: View {
+    @Binding var favourites: [FavoriteItem]
+    let saveFavourites: () -> Void
 
     var body: some View {
         NavigationStack {
@@ -23,7 +25,7 @@ struct JornaisListView: View {
                             .frame(width: 25.0, height: 25.0)
                             .clipShape(RoundedRectangle(cornerRadius: 4.0))
                             NavigationLink(publication.name) {
-                                PublicationView(publication: publication)
+                                PublicationView(publication: publication, favourites: $favourites, saveFavourites: saveFavourites)
                              }
                         }
                     }
@@ -42,7 +44,7 @@ struct JornaisListView: View {
                             .frame(width: 25.0, height: 25.0)
                             .clipShape(RoundedRectangle(cornerRadius: 4.0))
                             NavigationLink(publication.name) {
-                                PublicationView(publication: publication)
+                                PublicationView(publication: publication,favourites: $favourites, saveFavourites: saveFavourites)
                              }
                         }
                     }
@@ -62,7 +64,7 @@ struct JornaisListView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 4.0))
                             
                             NavigationLink(publication.name) {
-                                PublicationView(publication: publication)
+                                PublicationView(publication: publication, favourites: $favourites, saveFavourites: saveFavourites)
                              }
                         }
                     }

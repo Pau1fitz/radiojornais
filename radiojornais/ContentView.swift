@@ -20,12 +20,12 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            JornaisListView()
+            JornaisListView(favourites: $store.favourites, saveFavourites: saveFavourites)
                 .tabItem {
                     Label("Jornais", systemImage: "book")
                 }
             
-            RadioListView(favourites: $store.favourites, saveAction: saveFavourites)
+            RadioListView(favourites: $store.favourites, saveFavourites: saveFavourites)
                 .tabItem {
                     Label("Rádio", systemImage: "antenna.radiowaves.left.and.right")
                 }

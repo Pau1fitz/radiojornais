@@ -8,12 +8,8 @@
 import SwiftUI
 
 struct FavouritesListView: View {
-    
     @Binding var favourites: [FavoriteItem]
-    
-    
-    
-    
+
     var body: some View {
         
         let _ = print(favourites)

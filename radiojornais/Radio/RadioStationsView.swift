@@ -21,11 +21,12 @@ struct RadioStationView: View {
         VStack {
             VStack {
                 Spacer()
+                
                 Image(radioStation.logo)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 150.0, height: 150.0)
-                        
+                    .frame(width: 160.0, height: 160.0)
+                
                 Spacer()
                 
                 if isBuffering {
@@ -35,7 +36,6 @@ struct RadioStationView: View {
                     .frame(width: 55.0, height: 55.0)
                     
                 } else {
-                    
                     HStack {
                         Image(systemName: soundManager.isPlaying ? "pause.circle": "play.circle")
                             .font(.system(size: 50))

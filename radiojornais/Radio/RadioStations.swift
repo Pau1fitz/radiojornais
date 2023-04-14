@@ -18,7 +18,7 @@ struct RadioStation {
 
 let radioStations: [RadioStation] = [
     RadioStation(
-        name: "Radio Comercial",
+        name: "Rádio Comercial",
         image: createFavicon(url: "https://radiocomercial.pt/"),
         url: "https://stream-icy.bauermedia.pt/comercial.mp3",
         logo: "comercial",
@@ -67,7 +67,7 @@ let radioStations: [RadioStation] = [
         smallImage: "mega-small"
     ),
     RadioStation(
-        name: "Capsao",
+        name: "Rádio Capsao",
         image: "https://i.postimg.cc/vTWQDhGR/capsao.png",
         url: "https://capsaolisboa.ice.infomaniak.ch/capsaolisboa-128.mp3",
         logo: "capsao",

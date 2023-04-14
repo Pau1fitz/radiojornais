@@ -50,7 +50,7 @@ struct JornaisListView: View {
                     }
                 }
                 header: {
-                    Text("Esportes")
+                    Text("Desportos")
                 }
                 Section {
                     ForEach(fashionPublications, id: \.name) { publication in
@@ -71,6 +71,48 @@ struct JornaisListView: View {
                 }
                 header: {
                     Text("Moda")
+                }
+                
+                Section {
+                    ForEach(celebrityPublications, id: \.name) { publication in
+                        HStack {
+                            AsyncImage(url: URL(string: publication.image)) { image in
+                                image.resizable()
+                            } placeholder: {
+                                ProgressView()
+                            }
+                            .frame(width: 25.0, height: 25.0)
+                            .clipShape(RoundedRectangle(cornerRadius: 4.0))
+                            
+                            NavigationLink(publication.name) {
+                                PublicationView(publication: publication, favourites: $favourites, saveFavourites: saveFavourites)
+                             }
+                        }
+                    }
+                }
+                header: {
+                    Text("Celebridades")
+                }
+                
+                Section {
+                    ForEach(otherPublications, id: \.name) { publication in
+                        HStack {
+                            AsyncImage(url: URL(string: publication.image)) { image in
+                                image.resizable()
+                            } placeholder: {
+                                ProgressView()
+                            }
+                            .frame(width: 25.0, height: 25.0)
+                            .clipShape(RoundedRectangle(cornerRadius: 4.0))
+                            
+                            NavigationLink(publication.name) {
+                                PublicationView(publication: publication, favourites: $favourites, saveFavourites: saveFavourites)
+                             }
+                        }
+                    }
+                }
+                header: {
+                    Text("Outra")
                 }
             }
             .navigationTitle("Jornais")

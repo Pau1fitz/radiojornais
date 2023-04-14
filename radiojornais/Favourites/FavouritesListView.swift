@@ -16,7 +16,6 @@ struct FavouritesListView: View {
     @State private var radioStationDisplayedIndex: Int? = nil
 
     var body: some View {
-        let allPublications = sportPublications + fashionPublications + generalPublications
         let favouritePublications = allPublications.filter { favourites.map({$0.name}).contains($0.name) }
         let favouriteRadioStations = radioStations.filter { favourites.map({$0.name}).contains($0.name) }
         

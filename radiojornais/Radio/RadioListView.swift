@@ -9,10 +9,10 @@
 import SwiftUI
 
 struct RadioListView: View {
-    @StateObject private var soundManager = SoundManager()
-
+    var soundManager: SoundManager
     @Binding var favourites: [FavoriteItem]
     let saveFavourites: () -> Void
+    @State var showingRadioStationSheet = false
         
     var body: some View {
         NowPlayingBar(content: NavigationStack {
@@ -28,7 +28,7 @@ struct RadioListView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 4.0))
                         
                         NavigationLink(radioStation.name) {
-                            RadioStationView(radioStation: radioStation, soundManager: soundManager, isBuffering: soundManager.isBuffering, favourites: $favourites, saveFavourites: saveFavourites)
+                            RadioStationView(radioStation: radioStation, soundManager: soundManager, isBuffering: soundManager.isBuffering, favourites: $favourites, saveFavourites: saveFavourites, showingRadioStationSheet: $showingRadioStationSheet)
                          }
                     }
                 }

@@ -12,7 +12,8 @@ struct RadioStationView: View {
     var soundManager: SoundManager
     var isBuffering: Bool
     @Binding var favourites: [FavoriteItem]
-    let saveFavourites: () -> Void
+    var saveFavourites: () -> Void
+    @Binding var showingRadioStationSheet: Bool
     
     var body: some View {
         let favouriteNames = favourites.map { $0.name }
@@ -47,9 +48,11 @@ struct RadioStationView: View {
                         Image(systemName: favouriteNames.contains(radioStation.name) ? "star.circle.fill" : "star.circle")
                             .font(.system(size: 50))
                             .onTapGesture {
+                                showingRadioStationSheet = false
                                 if favouriteNames.contains(radioStation.name) {
                                     if let index = favourites.firstIndex(where: { $0.name == radioStation.name }) {
                                         favourites.remove(at: index)
+                                        
                                     }
                                 } else {
                                     favourites.append(FavoriteItem(name: radioStation.name, type: "radio", logo: radioStation.logo))

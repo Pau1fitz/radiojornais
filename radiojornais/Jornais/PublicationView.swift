@@ -36,14 +36,13 @@ struct PublicationView: View {
                     .foregroundColor(.black)
             }
             
-            
             Button(action: {
                 if favouriteNames.contains(publication.name) {
                     if let index = favourites.firstIndex(where: { $0.name == publication.name }) {
                         favourites.remove(at: index)
                     }
                 } else {
-                    favourites.append(FavoriteItem(name: publication.name, type: "news", logo: "rfm"))
+                    favourites.append(FavoriteItem(name: publication.name, type: "news", logo: publication.image))
                 }
                 
                 saveFavourites()

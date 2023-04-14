@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var store = FavouritesItemsStore()
+    @StateObject var soundManager = SoundManager()
      
     func saveFavourites () {
         FavouritesItemsStore.save(favouriteItems: store.favourites) { result in
@@ -25,12 +26,12 @@ struct ContentView: View {
                     Label("Jornais", systemImage: "book")
                 }
             
-            RadioListView(favourites: $store.favourites, saveFavourites: saveFavourites)
+            RadioListView(soundManager: soundManager, favourites: $store.favourites, saveFavourites: saveFavourites)
                 .tabItem {
                     Label("Rádio", systemImage: "antenna.radiowaves.left.and.right")
                 }
             
-            FavouritesListView(favourites: $store.favourites)
+            FavouritesListView(soundManager: soundManager, favourites: $store.favourites, saveFavourites: saveFavourites)
                 .tabItem {
                     Label("Favoritos", systemImage: "star")
                 }

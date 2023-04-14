@@ -11,6 +11,20 @@
 		E2C7650329E984220062C485 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7650229E984220062C485 /* ContentView.swift */; };
 		E2C7650529E984230062C485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C7650429E984230062C485 /* Assets.xcassets */; };
 		E2C7650829E984230062C485 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C7650729E984230062C485 /* Preview Assets.xcassets */; };
+		E2C7650F29E984390062C485 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7650E29E984390062C485 /* WebView.swift */; };
+		E2C7651129E984660062C485 /* RadioStations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7651029E984660062C485 /* RadioStations.swift */; };
+		E2C7651329E9847D0062C485 /* RadioStationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7651229E9847C0062C485 /* RadioStationsView.swift */; };
+		E2C7651529E984980062C485 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7651429E984980062C485 /* SoundManager.swift */; };
+		E2C7651729E984AF0062C485 /* RadioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7651629E984AF0062C485 /* RadioListView.swift */; };
+		E2C7651929E984C40062C485 /* NowPlayingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7651829E984C40062C485 /* NowPlayingBar.swift */; };
+		E2C7651B29E984E60062C485 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7651A29E984E60062C485 /* Border.swift */; };
+		E2C7651D29E985170062C485 /* JornaisListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7651C29E985170062C485 /* JornaisListView.swift */; };
+		E2C7651F29E9852E0062C485 /* PublicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7651E29E9852E0062C485 /* PublicationView.swift */; };
+		E2C7652129E985450062C485 /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7652029E985450062C485 /* Publication.swift */; };
+		E2C7652629E989FB0062C485 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C7652529E989FB0062C485 /* Launch Screen.storyboard */; };
+		E2C7652A29E995B20062C485 /* FavouriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7652929E995B20062C485 /* FavouriteItem.swift */; };
+		E2C7652E29E997340062C485 /* FavouritesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7652D29E997340062C485 /* FavouritesListView.swift */; };
+		E2C7653129E99D570062C485 /* FavouritesItemsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7653029E99D570062C485 /* FavouritesItemsStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,21 @@
 		E2C7650229E984220062C485 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2C7650429E984230062C485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C7650729E984230062C485 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2C7650E29E984390062C485 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E2C7651029E984660062C485 /* RadioStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStations.swift; sourceTree = "<group>"; };
+		E2C7651229E9847C0062C485 /* RadioStationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationsView.swift; sourceTree = "<group>"; };
+		E2C7651429E984980062C485 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		E2C7651629E984AF0062C485 /* RadioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioListView.swift; sourceTree = "<group>"; };
+		E2C7651829E984C40062C485 /* NowPlayingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingBar.swift; sourceTree = "<group>"; };
+		E2C7651A29E984E60062C485 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
+		E2C7651C29E985170062C485 /* JornaisListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JornaisListView.swift; sourceTree = "<group>"; };
+		E2C7651E29E9852E0062C485 /* PublicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationView.swift; sourceTree = "<group>"; };
+		E2C7652029E985450062C485 /* Publication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publication.swift; sourceTree = "<group>"; };
+		E2C7652429E988290062C485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E2C7652529E989FB0062C485 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E2C7652929E995B20062C485 /* FavouriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteItem.swift; sourceTree = "<group>"; };
+		E2C7652D29E997340062C485 /* FavouritesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListView.swift; sourceTree = "<group>"; };
+		E2C7653029E99D570062C485 /* FavouritesItemsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesItemsStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +80,15 @@
 		E2C764FF29E984220062C485 /* radiojornais */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7652F29E9977F0062C485 /* Favourites */,
+				E2C7652329E986CA0062C485 /* Jornais */,
+				E2C7652229E986BC0062C485 /* Radio */,
 				E2C7650029E984220062C485 /* radiojornaisApp.swift */,
 				E2C7650229E984220062C485 /* ContentView.swift */,
+				E2C7650E29E984390062C485 /* WebView.swift */,
+				E2C7651A29E984E60062C485 /* Border.swift */,
+				E2C7652529E989FB0062C485 /* Launch Screen.storyboard */,
+				E2C7652429E988290062C485 /* Info.plist */,
 				E2C7650429E984230062C485 /* Assets.xcassets */,
 				E2C7650629E984230062C485 /* Preview Content */,
 			);
@@ -65,6 +101,38 @@
 				E2C7650729E984230062C485 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2C7652229E986BC0062C485 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7651029E984660062C485 /* RadioStations.swift */,
+				E2C7651229E9847C0062C485 /* RadioStationsView.swift */,
+				E2C7651429E984980062C485 /* SoundManager.swift */,
+				E2C7651629E984AF0062C485 /* RadioListView.swift */,
+				E2C7651829E984C40062C485 /* NowPlayingBar.swift */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		E2C7652329E986CA0062C485 /* Jornais */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7651E29E9852E0062C485 /* PublicationView.swift */,
+				E2C7652029E985450062C485 /* Publication.swift */,
+				E2C7651C29E985170062C485 /* JornaisListView.swift */,
+			);
+			path = Jornais;
+			sourceTree = "<group>";
+		};
+		E2C7652F29E9977F0062C485 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				E2C7653029E99D570062C485 /* FavouritesItemsStore.swift */,
+				E2C7652D29E997340062C485 /* FavouritesListView.swift */,
+				E2C7652929E995B20062C485 /* FavouriteItem.swift */,
+			);
+			path = Favourites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +162,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
@@ -125,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C7652629E989FB0062C485 /* Launch Screen.storyboard in Resources */,
 				E2C7650829E984230062C485 /* Preview Assets.xcassets in Resources */,
 				E2C7650529E984230062C485 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +209,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C7651329E9847D0062C485 /* RadioStationsView.swift in Sources */,
+				E2C7651B29E984E60062C485 /* Border.swift in Sources */,
+				E2C7651729E984AF0062C485 /* RadioListView.swift in Sources */,
+				E2C7650F29E984390062C485 /* WebView.swift in Sources */,
+				E2C7651929E984C40062C485 /* NowPlayingBar.swift in Sources */,
+				E2C7651F29E9852E0062C485 /* PublicationView.swift in Sources */,
+				E2C7652E29E997340062C485 /* FavouritesListView.swift in Sources */,
+				E2C7652129E985450062C485 /* Publication.swift in Sources */,
+				E2C7652A29E995B20062C485 /* FavouriteItem.swift in Sources */,
 				E2C7650329E984220062C485 /* ContentView.swift in Sources */,
+				E2C7651129E984660062C485 /* RadioStations.swift in Sources */,
+				E2C7653129E99D570062C485 /* FavouritesItemsStore.swift in Sources */,
 				E2C7650129E984220062C485 /* radiojornaisApp.swift in Sources */,
+				E2C7651529E984980062C485 /* SoundManager.swift in Sources */,
+				E2C7651D29E985170062C485 /* JornaisListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,20 +352,25 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"radiojornais/Preview Content\"";
-				DEVELOPMENT_TEAM = 3U363Z3WV3;
+				DEVELOPMENT_TEAM = 76JCT53BXS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = radiojornais/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = radiojornais;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.magazines-and-newspapers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = radiojornais.radiojornais;
+				PRODUCT_BUNDLE_IDENTIFIER = test.radiojornais;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,20 +386,25 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"radiojornais/Preview Content\"";
-				DEVELOPMENT_TEAM = 3U363Z3WV3;
+				DEVELOPMENT_TEAM = 76JCT53BXS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = radiojornais/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = radiojornais;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.magazines-and-newspapers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = radiojornais.radiojornais;
+				PRODUCT_BUNDLE_IDENTIFIER = test.radiojornais;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -24,6 +24,7 @@
 		E2C7652A29E995B20062C485 /* FavouriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7652929E995B20062C485 /* FavouriteItem.swift */; };
 		E2C7652E29E997340062C485 /* FavouritesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7652D29E997340062C485 /* FavouritesListView.swift */; };
 		E2C7653129E99D570062C485 /* FavouritesItemsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7653029E99D570062C485 /* FavouritesItemsStore.swift */; };
+		E2C7653329E9B5C50062C485 /* App Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C7653229E9B5C50062C485 /* App Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		E2C7652929E995B20062C485 /* FavouriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteItem.swift; sourceTree = "<group>"; };
 		E2C7652D29E997340062C485 /* FavouritesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListView.swift; sourceTree = "<group>"; };
 		E2C7653029E99D570062C485 /* FavouritesItemsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesItemsStore.swift; sourceTree = "<group>"; };
+		E2C7653229E9B5C50062C485 /* App Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "App Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				E2C7650229E984220062C485 /* ContentView.swift */,
 				E2C7650E29E984390062C485 /* WebView.swift */,
 				E2C7651A29E984E60062C485 /* Border.swift */,
+				E2C7653229E9B5C50062C485 /* App Launch Screen.storyboard */,
 				E2C7652429E988290062C485 /* Info.plist */,
 				E2C7650429E984230062C485 /* Assets.xcassets */,
 				E2C7650629E984230062C485 /* Preview Content */,
@@ -195,6 +198,7 @@
 			files = (
 				E2C7650829E984230062C485 /* Preview Assets.xcassets in Resources */,
 				E2C7650529E984230062C485 /* Assets.xcassets in Resources */,
+				E2C7653329E9B5C50062C485 /* App Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +360,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.magazines-and-newspapers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UILaunchStoryboardName = "App Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
@@ -390,7 +394,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.magazines-and-newspapers";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UILaunchStoryboardName = "App Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;

@@ -44,8 +44,6 @@ class FavouritesItemsStore: ObservableObject {
      }
     
     static func save(favouriteItems: [FavoriteItem], completion: @escaping (Result<Int, Error>)->Void) {
-        print("favouriteItems")
-        print(favouriteItems)
         DispatchQueue.global(qos: .background).async {
             do {
                 let data = try JSONEncoder().encode(favouriteItems)

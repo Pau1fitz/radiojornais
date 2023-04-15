@@ -113,6 +113,16 @@ let otherPublications = [
         image: createFavicon(url: "https://rollingstone.uol.com.br/")
     ),
     Publication(
+        name:"Women's Health",
+        url: URL(string: "https://www.womenshealth.pt/")!,
+        image: createFavicon(url: "https://www.womenshealth.pt/")
+    ),
+    Publication(
+        name:"Men's Health",
+        url: URL(string: "https://www.menshealth.pt/")!,
+        image: createFavicon(url: "https://www.menshealth.pt/")
+    ),
+    Publication(
         name:"Tecmundo",
         url: URL(string: "https://www.tecmundo.com.br/")!,
         image: createFavicon(url: "https://www.tecmundo.com.br/")

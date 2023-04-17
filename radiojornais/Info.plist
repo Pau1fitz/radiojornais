@@ -6,7 +6,10 @@
 	<array>
 		<string>audio</string>
 		<string>bluetooth-central</string>
-		<string>external-accessory</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+    <string>bluetooth-le</string>
 	</array>
 	<key>UILaunchScreen</key>
 	<dict>

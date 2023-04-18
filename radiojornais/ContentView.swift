@@ -26,10 +26,10 @@ struct ContentView: View {
                     Label("Jornais", systemImage: "book")
                 }
             
-            RadioListView(soundManager: soundManager, favourites: $store.favourites, saveFavourites: saveFavourites)
-                .tabItem {
-                    Label("Rádio", systemImage: "antenna.radiowaves.left.and.right")
-                }
+//            RadioListView(soundManager: soundManager, favourites: $store.favourites, saveFavourites: saveFavourites)
+//                .tabItem {
+//                    Label("Rádio", systemImage: "antenna.radiowaves.left.and.right")
+//                }
             
             FavouritesListView(soundManager: soundManager, favourites: $store.favourites, saveFavourites: saveFavourites)
                 .tabItem {

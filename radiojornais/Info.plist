@@ -2,15 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>audio</string>
-		<string>bluetooth-central</string>
-	</array>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-    <string>bluetooth-le</string>
-	</array>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIImageName</key>
